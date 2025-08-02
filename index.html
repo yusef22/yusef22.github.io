@@ -36,25 +36,30 @@
     }
   </style>
   <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+    tailwind.config = {
+      darkMode: 'media'
+    }
+  </script>
 </head>
 
-<body class="bg-white text-gray-800 font-sans">
+<body class="bg-white dark:bg-gray-900 text-gray-800 font-sans">
 
   <main class="max-w-3xl mx-auto p-6">
     <!-- Header with Profile Photo -->
     <header class="mb-10 flex items-center gap-6">
       <img src="images/profile.jpeg" alt="Profile Photo" class="w-24 h-24 rounded-full object-cover shadow-lg border" />
       <div>
-        <h1 class="text-4xl font-bold ubuntu-bold">Yusef Shiri</h1>
-        <p class="text-lg text-gray-600 ubuntu-regular">Backend Developer · PHP | Golang | Flutter</p>
+        <h1 class="text-4xl font-bold ubuntu-bold dark:text-white">Yusef Shiri</h1>
+        <p class="text-lg text-gray-600 dark:text-gray-300 ubuntu-regular">Backend Developer · PHP | Golang | Flutter</p>
         <p class="mt-2 text-sm text-gray-500 ubuntu-light">yusef22[at]gmail[dot]com · linkedin.com/in/yusef-shiri</p>
       </div>
     </header>
 
     <!-- Summary -->
     <section class="mb-8">
-      <h2 class="text-2xl mb-2 ubuntu-bold">Professional Summary</h2>
-      <p class="text-gray-700 ubuntu-regular">
+      <h2 class="text-2xl mb-2 ubuntu-bold dark:text-white">Professional Summary</h2>
+      <p class="text-gray-700 ubuntu-regular dark:text-gray-300">
         Passionate backend developer with over 11 years of experience. Skilled in building scalable web applications and
         RESTful APIs using modern technologies. Eager to work in international teams and face technical challenges.
       </p>
@@ -72,33 +77,33 @@
           <ul class="space-y-3">
             <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">Golang</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 95%"></div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Golang</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                  <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 95%"></div>
                 </div>
               </div>
             </li>
             <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">PHP</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 98%"></div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">PHP</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                  <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 98%"></div>
                 </div>
               </div>
             </li>
             <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">Dart</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 55%"></div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Dart</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                  <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 55%"></div>
                 </div>
               </div>
             </li>
             <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">JavaScript</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 40%"></div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">JavaScript</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                  <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 40%"></div>
                 </div>
               </div>
             </li>
@@ -112,41 +117,41 @@
           <ul class="space-y-3">
             <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">Echo</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 85%"></div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Echo</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                  <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 85%"></div>
                 </div>
               </div>
             </li>
             <li>
             <div>
-              <h4 class="text-sm font-bold mb-1">Laravel/Lumen</h4>
-              <div class="w-full bg-gray-200 h-2 rounded">
-                <div class="h-2 bg-gray-400 rounded" style="width: 95%"></div>
+              <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Laravel/Lumen</h4>
+              <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 95%"></div>
               </div>
             </div>
           </li>
           <li>
             <div>
-              <h4 class="text-sm font-bold mb-1">Symfony</h4>
-              <div class="w-full bg-gray-200 h-2 rounded">
-                <div class="h-2 bg-gray-400 rounded" style="width: 80%"></div>
+              <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Symfony</h4>
+              <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 80%"></div>
               </div>
             </div>
           </li>
           <li>
             <div>
-              <h4 class="text-sm font-bold mb-1">Flutter</h4>
-              <div class="w-full bg-gray-200 h-2 rounded">
-                <div class="h-2 bg-gray-400 rounded" style="width: 65%"></div>
+              <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Flutter</h4>
+              <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 65%"></div>
               </div>
             </div>
           </li>
           <li>
             <div>
-              <h4 class="text-sm font-bold mb-1">Vue.js</h4>
-              <div class="w-full bg-gray-200 h-2 rounded">
-                <div class="h-2 bg-gray-400 rounded" style="width: 40%"></div>
+              <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Vue.js</h4>
+              <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 40%"></div>
               </div>
             </div>
           </li>
@@ -159,42 +164,42 @@
           <ul class="space-y-3">
             <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">MySql</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 90%"></div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">MySql</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                  <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 90%"></div>
                 </div>
               </div>
               </li>
               <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">Redis</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 90%"></div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Redis</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                  <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 90%"></div>
                 </div>
               </div>
             </li>
             <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">RabbitMQ</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 90%"></div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">RabbitMQ</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                  <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 90%"></div>
                 </div>
               </div>
             </li>
             <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">Git</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 90%"></div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Git</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                  <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 90%"></div>
                 </div>
               </div>
             </li>
             <li>
               <div>
-                <h4 class="text-sm font-bold mb-1">Docker</h4>
-                <div class="w-full bg-gray-200 h-2 rounded">
-                  <div class="h-2 bg-gray-400 rounded" style="width: 98%"></div>
-                </div>
+                <h4 class="text-sm font-bold mb-1 dark:text-gray-300">Docker</h4>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded">
+                <div class="h-2 bg-gray-400 dark:bg-gray-400 rounded" style="width: 98%"></div>
+              </div>
               </div>
             </li>
             <!-- more items -->
@@ -253,23 +258,23 @@
 
     <!-- Experience -->
     <section class="mb-8">
-      <h2 class="text-2xl mb-2 ubuntu-bold">Experiences</h2>
+      <h2 class="text-2xl mb-2 ubuntu-bold dark:text-white">Experiences</h2>
       <div class="mb-4">
-        <h3 class="font-semibold">SnappDoctor · Senior Software Engineer</h3>
-        <p class="text-sm text-gray-600 ubuntu-light">Mar 2023 – Present</p>
-        <p class="text-sm ubuntu-regular">Working on scalable health-tech systems, microservices, and payment
+        <h3 class="font-semibold dark:text-white">SnappDoctor · Senior Software Engineer</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 ubuntu-light">Mar 2023 – Present</p>
+        <p class="text-sm ubuntu-regular dark:text-white">Working on scalable health-tech systems, microservices, and payment
           integrations.</p>
       </div>
       <div class="mb-4">
-        <h3 class="font-semibold">SnappTicket · Senior PHP Developer</h3>
-        <p class="text-sm text-gray-600 ubuntu-light">Sep 2022 – Mar 2023</p>
-        <p class="text-sm ubuntu-regular">Working on scalable health-tech systems, microservices, and payment
+        <h3 class="font-semibold dark:text-white">SnappTicket · Senior PHP Developer</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 ubuntu-light">Sep 2022 – Mar 2023</p>
+        <p class="text-sm ubuntu-regular dark:text-white">Working on scalable health-tech systems, microservices, and payment
           integrations.</p>
       </div>
       <div class="mb-4">
-        <h3 class="font-semibold">AgapeNGO · Senior PHP Developer</h3>
-        <p class="text-sm text-gray-600 ubuntu-light">Dec 2020 – Sep 2022</p>
-        <p class="text-sm ubuntu-regular">Here, I work as a senior PHP developer, and head of the back-end team to
+        <h3 class="font-semibold dark:text-white">AgapeNGO · Senior PHP Developer</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 ubuntu-light">Dec 2020 – Sep 2022</p>
+        <p class="text-sm ubuntu-regular dark:text-white">Here, I work as a senior PHP developer, and head of the back-end team to
           develop the main
           platform of Agape NGO aimed at charity development and financial crowd funding.</p>
       </div>
@@ -279,13 +284,13 @@
 
     <!-- Projects Section with Gallery -->
     <section class="mb-8">
-      <h2 class="text-2xl mb-4 ubuntu-bold">Personal Projects</h2>
+      <h2 class="text-2xl mb-4 ubuntu-bold dark:text-white">Personal Projects</h2>
 
       <div class="mb-4">
-        <h3 class="text-lg ubuntu-medium">Drimo – Personal Finance App</h3>
-        <p class="text-sm text-gray-600 mb-2 ubuntu-regular">Website: <a href="https://drimo.ir"
-            class="text-blue-600 underline ubuntu-regular">drimo.ir</a></p>
-        <p class="text-sm mb-4 ubuntu-regular">Developed a responsive PWA and Android app using Flutter. Backend built
+        <h3 class="text-lg ubuntu-medium dark:text-white">Drimo – Personal Finance App</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 mb-2 ubuntu-regular">Website: <a href="https://drimo.ir"
+            class="text-blue-600 dark:text-blue-300 underline ubuntu-regular">drimo.ir</a></p>
+        <p class="text-sm mb-4 ubuntu-regular dark:text-white">Developed a responsive PWA and Android app using Flutter. Backend built
           with RESTful
           APIs and Firebase integration.</p>
 
@@ -302,7 +307,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center text-sm text-gray-400 mt-10 ubuntu-light">
+    <footer class="text-center text-sm text-gray-400 dark:text-gray-300 mt-10 ubuntu-light">
       © 2025 Yusef. All rights reserved.
     </footer>
   </main>
